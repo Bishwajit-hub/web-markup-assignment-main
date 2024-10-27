@@ -1,0 +1,602 @@
+/* common styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title{
+  text-align: center;
+}
+
+.text{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+ul {
+  display: flex;
+ 
+}
+
+ .menu-items ul{
+  text-decoration: none;
+  list-style: none;
+}
+
+.menu-items ul li a:hover{
+  background-color: #555;
+}
+/* Home Page Start */
+
+/* header style start */
+header {
+  margin-bottom: 2rem;
+}
+/* header style end */
+
+/* nav style start  */
+/* Logo styling */
+.logo {
+  display: flex;
+  align-items: center;
+  padding-right: 60px;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333; /* Change as needed */
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.logo-img {
+  width: 50px; /* Size adjustments may be needed */
+  height: auto;
+  margin-right: 10px; /* Spacing between image and text */
+}
+nav {
+  padding-left: 5px;
+  width: 100em;
+  height: 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eda6a6;
+}
+.logo {
+  padding-right: 60px;
+}
+
+.menu-items{
+  padding-right: 6em;
+  
+}
+
+nav  a {
+  text-decoration:none ;
+  padding: 1rem;
+}
+
+/* nav style end  */
+/* museum style start */
+/* .main-container{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(57, 20, 220);
+} */
+.museum-image {
+  width: 80%;
+  height: 80%;
+  padding: 30px;
+}
+
+.museum-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(122, 114, 114);
+}
+
+.museum-container {
+  display: flex;
+  align-items: center;
+}
+
+#museum-headline {
+  margin-bottom: 1em;
+  font-size: 2rem;
+}
+
+/* museum style end  */
+
+/* canals and architecture style start  */
+.canal-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.canal-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.canal-img {
+  width: 80%;
+  height: 80%;
+  padding: 30px;
+}
+
+#canal-headline {
+  margin-bottom: 1em;
+  font-size: 2rem;
+}
+
+/* canals and architecture style end  */
+
+/* parks style start  */
+
+.park-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.park-img {
+  width: 80%;
+  height: 80%;
+  padding: 30px;
+}
+
+.park-headline {
+  margin-bottom: 1em;
+  font-size: 2rem;
+}
+
+/* parks style end  */
+
+/* shopping style start */
+
+.shopping-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.shopping-img {
+  width: 80%;
+  height: 80%;
+  padding: 30px;
+}
+
+.shopping-headline {
+  margin-bottom: 1em;
+  font-size: 2rem;
+}
+
+.shopping-title-text {
+  text-align: center;
+}
+
+.shopping-text {
+  text-align: center;
+  font-size: 16px;
+}
+/* shopping style end */
+
+/* footer start  */
+.home-footer {
+  width: 100%;
+  height: 100%;
+  background-color: burlywood;
+  text-align: center;
+  padding: 2em;
+  border-radius: 0.5em;
+  align-items: center;
+}
+.footer-logo {
+  width: 10%;
+  height: 5%;
+}
+/* footer end  */
+/* Home Page End */
+
+/* Details page-1 style (museum) start */
+.museum-section-1{
+  width:100%;
+  height: 50%;
+  
+}
+.museum-img-1{
+  width:100em;
+  height:50em;
+}
+.museum-section-title{
+  margin-bottom: 1em;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.museum-img-2{
+  width: 50em;
+  height:50%
+}
+
+.vangogh-img{
+  width:50em;
+  height:50%;
+}
+
+.museum-picture-container{
+
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.museum-section-2{
+ display: flex; 
+ justify-content:space-between;
+ align-items: center;
+ padding: 5em;
+}
+
+.rijkmuseum-img{
+  width:50em;
+  height:50%;
+}
+
+.section-rijkmuseum{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5em;
+}
+
+.footer-logo {
+  width: 10%;
+  height: 5%;
+}
+.museum-footer{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(13, 15, 63);
+  text-align: center;
+  padding: 2em;
+  border-radius: 0.5em;
+  align-items: center;
+}
+
+figcaption{
+  text-align: center;
+}
+/* Details page-1 style (museum) end */
+
+/* detail page canal style start  */
+.canal-page-container{
+  width:100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin-top:.5em;
+}
+
+.canal-section{
+  margin-left: 5px;
+}
+.canal-page-img{
+  width: 100%;
+  height:50%;
+  border-radius: 2em;
+ 
+}
+.canal-image-2{
+  width: 80%;
+  height: 50%;
+  padding: 5em;
+}
+
+.canal-page-title{
+  font-size: 1em;
+  text-align: center;
+ 
+
+}
+.canal-page-text{
+  font-size: 1em;
+  text-align: center;
+  padding: 1em;
+
+}
+.canal-page-article{
+  margin: 5px;
+}
+
+.amsterdam-waterways{
+  text-align: center;
+}
+
+.discover-amsterdam-canal{
+  margin-top:.5rem;
+  width: 1520px;
+  height: 600px;
+background-color: #fed5c5;
+}
+
+.discover-amsterdam-img{
+width: 50em;
+height: 32em;
+}
+
+.amsterdam-canal-title{
+  font-size: 16px;
+  text-align: center;
+}
+
+.discover-container{
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  background-color: #ffd5c5;
+}
+.canal-footer{
+  margin-top: 2em;
+  background-color: #ffd5c5;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 2em;
+  border-radius: 0.5em;
+  align-items: center;
+}
+/* detail page canal style end  */
+/* park style start */
+.parks-1-img{
+  width:100%;
+  height: 30em;
+}
+.parks-2-img{
+
+  width:50%;
+  height: 20em;
+
+}
+.parks-3-img{
+  width:50%;
+  height: 20em;
+
+}
+.vondel-park-section{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+.vondel-park-section-img{
+ width: 100%;
+  background-color: #0A7ACC;
+}
+.vondel-park-section-text{
+  height: 50em;
+  background-color: #CC8521;
+ text-align: center;
+
+ 
+}
+
+.beatrix-park-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  .beatrix-park-section-img{
+   width: 100%;
+    background-color: #a9726c;
+  }
+  .beatrix-park-section-text{
+    margin-top: 2em;
+    height: 50em;
+    background-color:#FFECEE;
+   text-align: center;
+  
+   
+  }
+
+  .parks-footer{
+    width: 100%;
+    height: 100%;
+    background-color: #797678;
+    text-align: center;
+    padding: 2em;
+    border-radius: 0.5em;
+    align-items: center;
+  }
+
+/* park style end */
+/* detail page shopping start */
+.local-market-text{
+  width:100%;
+  height:5em;
+  background-color: #ffd5c5;
+  text-align: center;
+  padding: 5em;
+}
+
+.local-market-img{
+  width:100%;
+  height: 30em;
+}
+
+.local-text{
+  font-size: 1em;
+  text-align: center;
+  
+}
+
+.shopping-footer{
+  margin-top: 2em;
+  background-color: #ffd5c5;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 2em;
+  border-radius: 0.5em;
+  align-items: center;
+
+}
+/* detail page shopping end */
+
+
+/* contact style start */
+.form-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+  background-color: aliceblue;
+}
+form{
+width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+}
+fieldset{
+  width: 72em;
+}
+
+label{
+  display: block;
+  margin: 10px 0 5px;
+}
+input,select,textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button{
+  width: 100%;
+  padding: 5px;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: blue;
+}
+
+.contact-footer{
+  width: 100%;
+  height: 100%;
+  background-color:#ccc;
+  text-align: center;
+  padding: 2em;
+  border-radius: 0.5em;
+  align-items: center;
+}
+/* contact style end */
+
+
+/* Responsive Layout  */
+@media screen and (max-width: 768px) {
+  /* Adjust the navigation menu for mobile devices */
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 1em;
+  }
+  .menu-items {
+    padding-right: 0;
+  }
+
+/* Make sections stack vertically on phones */
+.museum-section, .canal-section, .park-section, .shopping-img-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .museum-image, .canal-img, .park-img, .shopping-img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .form-container, form, fieldset {
+    width: 90%;
+    padding: 1rem;
+  }
+}
+
+/* screen layout */
+@media screen and (min-width: 769px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    background-color: #eda6a6;
+  }
+
+  .museum-section, .canal-section, .park-section, .shopping-img-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .museum-image, .canal-img, .park-img, .shopping-img {
+width: 80%;
+    height: 80%;
+    padding: 30px;
+  }
+
+  .form-container {
+    padding: 2rem;
+  }
+}
+
+/* Further adjustments to footer and button elements */
+.contact-footer, .home-footer, .museum-footer, .canal-footer, .shopping-footer {
+  background-color: #ffd5c5;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+
+/* Contact Form Specific Styles */
+.form-container {
+  background-color: aliceblue;
+}
+
+button{
+background-color: #4CAF50;
+}
