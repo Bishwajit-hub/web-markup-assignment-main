@@ -10,7 +10,36 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  letter-spacing: 0.5px;
 }
+.floating{
+  float:left;
+  margin-right: 10px;
+ 
+}
+.menu-items,ul,li a:focus{
+  background-color:  rgb(111, 120, 219);
+  border-radius: 1em;
+}
+p{
+  line-height:normal;
+}
+p::first-letter {
+  font-size: 2em; 
+  color:blue;
+}
+
+h1, h2, h3 {
+  word-spacing: 2px; 
+}
+
+table tr:nth-child(even) {
+  background-color: #CFF; 
+}
+table tr:nth-child(odd) {
+  background-color: #FFF; 
+}
+
 
 .title{
   text-align: center;
@@ -20,6 +49,10 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  text-indent: 20px;
+}
+.text-uppercase{
+  text-transform: uppercase;
 }
 
 ul {
@@ -40,7 +73,11 @@ ul {
 /* header style start */
 header {
   margin-bottom: 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
 /* header style end */
 
 /* nav style start  */
@@ -188,6 +225,7 @@ nav  a {
 .shopping-headline {
   margin-bottom: 1em;
   font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .shopping-title-text {
@@ -209,6 +247,8 @@ nav  a {
   padding: 2em;
   border-radius: 0.5em;
   align-items: center;
+  position: relative;
+  bottom: 0;
 }
 .footer-logo {
   width: 10%;
@@ -525,8 +565,87 @@ button:hover{
   align-items: center;
 }
 /* contact style end */
+/* cookie message start  */
+/* Cookie Message Styles */
+.cookie-message {
+  position: fixed; /* Makes the message stay fixed at the bottom */
+  bottom: 0;
+  width: 100%;
+  background-color: #333; /* Dark background for visibility */
+  color: #fff; /* White text for contrast */
+  text-align: center;
+  padding: 1rem;
+  z-index: 9999; /* Ensures the message stays on top of other elements */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
 
+.cookie-message p {
+  margin: 0;
+  font-size: 0.9rem;
+}
 
+.cookie-message a {
+  color: #ffcc00; /* Highlighted link color */
+  text-decoration: underline;
+}
+
+.cookie-message button {
+  background-color: #ffcc00; /* Button color */
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cookie-message button:hover {
+  background-color: #c78809; /* Slight hover effect */
+}
+
+/* cookie message end */
+
+/* Time table start  */
+.time-table-title{
+  text-align: center;
+}
+.time-table {
+  width: 70%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 1rem;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  
+}
+
+.time-table th,
+.time-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  
+}
+
+.time-table > thead > tr {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.time-table tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.time-table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.time-table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Time table end */
 /* Responsive Layout  */
 @media screen and (max-width: 768px) {
   /* Adjust the navigation menu for mobile devices */
